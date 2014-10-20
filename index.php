@@ -16,7 +16,7 @@ $route = isset($_GET['r']) ? explode('/', trim($_GET['r'], '/')) : array();
 
 $Controller = new MainController();
 
-$Controller->baseUrl = 'http://lc/projects/starline';
+$Controller->baseUrl = '';
 $Controller->basePath = dirname(__FILE__);
 $Controller->viewPath = $Controller->basePath . DS . 'views' . DS;
 
