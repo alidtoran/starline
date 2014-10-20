@@ -1,0 +1,109 @@
+html {     
+    font-family:  Arial, serif; 
+	background: none repeat scroll 0 0 transparent;
+    color: #666;
+    
+    font-size: 12px;
+}
+
+html, body{ height: 100%; height: auto; min-height: 100%; width: 100%; position: relative;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,p,th,td {margin:0;padding:0}
+
+fieldset,img {border:0}
+
+li {margin: 0 0 20px;}
+
+input {border:0; border: none; background: #fff; border: 1px solid #333;}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    margin: 0 30px 20px; padding: 30px 0 0;
+}
+
+form {
+    margin: 0 30px 20px; padding: 0px;
+}
+
+input {
+    background: #fff;
+    border:0; border: none; 
+}
+
+.b-document {
+}
+
+.b-form {
+    
+}
+
+.b-form__group {
+    margin: 0 10px 15px;
+}
+
+.b-form__group_error {
+    margin: 0 10px 15px;
+}
+
+.b-form__text {
+    height: 30px;
+    margin: 0; padding: 0 10px;
+    
+    font-size:14px;
+    
+    line-height: 30px;
+    vertical-align: middle;
+    
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.b-form__group_error .b-form__text { 
+    border: 1px solid #a94442;
+}
+
+.b-form__helper {
+    
+}
+
+.b-form__group_error .b-form__helper { 
+    font-weight: bold;
+    
+    color: #a94442;
+}
+
+.b-form__bttn {
+    height: 30px;
+    margin: 0; padding: 0 10px;
+    
+    font-size:14px;
+    
+    line-height: 25px;
+    vertical-align: middle;
+    
+    color: #fff;
+    background: #3071a9;
+    border: 1px solid #285e8e;
+    border-radius: 5px;
+}
+
+.b-notice {
+    display: block;
+    
+    font-size: 11px;
+    
+    color: #bbb;
+}
+
+.b-msg {
+    padding: 20px 30px;
+}
+
+.b-msg_success {
+    font-size: 16px; font-weight: bold;
+    
+    color: #3c763d;
+}
